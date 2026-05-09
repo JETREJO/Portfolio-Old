@@ -30,11 +30,21 @@ const About = () => {
             {MEDIA_ICONS.INSTAGRAM}
           </div>
           <p>
-            Hello there! I'm Javier Trejo a web developer with more than <span className={styles.highlighted}>2 years</span> of
-            experience <span className={styles.highlighted}>building</span> user-friendly applications. Throughout my jurney, I've
-            <span className={styles.highlighted}> collaborated</span>  with my co-workers in their duties across diverse areas like
-            backend, design and database managment, <span className={styles.highlighted}>learning</span>  a lot from them. I'm constantly
-            <span className={styles.highlighted}> exploring</span> new technologies and resources to build smooth and scalable apps.
+            Hello there! I'm Javier Trejo a web developer with more than&nbsp;
+            <span className={styles.highlighted}>4 years</span>&nbsp;
+            of experience building&nbsp;
+            <span className={styles.highlighted}>user-friendly</span>&nbsp;
+            applications. Throughout my jurney, I've collaboratedwith my co-workers in their duties across diverse areas like&nbsp;
+            <span className={styles.highlighted}>backend, design</span>&nbsp;
+            and&nbsp;
+            <span className={styles.highlighted}>database managment,</span>&nbsp;
+            learning a lot from them. I'm constantly exploring&nbsp;
+            <span className={styles.highlighted}>new technologies </span>&nbsp;
+            and resources to build&nbsp;
+            <span className={styles.highlighted}>smooth</span>&nbsp;
+            and&nbsp;
+            <span className={styles.highlighted}>scalable</span>&nbsp;
+            apps.
           </p>
         </article>
       </div>

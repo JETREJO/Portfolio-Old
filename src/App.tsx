@@ -1,27 +1,23 @@
-import './App.css'
-import About from './components/about/about'
-import Certifications from './components/certifications/certifications'
-import Contact from './components/contact/contact'
-import Experience from './components/experience/experience'
-import Footer from './components/footer/footer'
-import Header from './components/header/header'
-import Hero from './components/hero/hero'
-import Stack from './components/technologies/stack'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Sky from "./pages/sky/Page";
+import Home from "./pages/home/page";
+import Penteon from "./pages/penteon/page";
+import Liverpool from "./pages/liverpool/page";
 
 function App() {
-
   return (
     <>
-      <Header/>
-      <Hero/>
-      <About/>
-      <Experience/>
-      <Stack/>
-      <Certifications/>
-      <Contact/>
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/JETREJO/" element={<Home />} />
+          <Route path="/JETREJO/sky" element={<Sky />} />
+          <Route path="/JETREJO/penteon" element={<Penteon />} />
+          <Route path="/JETREJO/liverpool" element={<Liverpool />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
