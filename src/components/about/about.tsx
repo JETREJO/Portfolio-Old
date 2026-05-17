@@ -14,7 +14,7 @@ const About = () => {
 
       <div className={styles.infoContainer}>
         <article className={styles.photoWrapper}>
-          <img src={PHOTO_URL} alt="Fotgrafía JT" />
+          <img src={PHOTO_URL} alt="Fotografía JT" />
           <a href={RESUMEE_URL} target="_blank" rel="noopener noreferrer">
             <EllipticalButton style={{fontSize: "15px", border:"transparent", fontWeight: "600"}}>
               View Resumee

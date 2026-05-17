@@ -10,10 +10,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/sky" element={<Sky />} />
-          <Route path="/penteon" element={<Penteon />} />
-          <Route path="/liverpool" element={<Liverpool />} />
+          <Route path="/JETREJO/" element={<Home />} />
+          <Route path="/JETREJO/sky" element={<Sky />} />
+          <Route path="/JETREJO/penteon" element={<Penteon />} />
+          <Route path="/JETREJO/liverpool" element={<Liverpool />} />
         </Routes>
       </BrowserRouter>
     </>
