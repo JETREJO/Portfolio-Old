@@ -1,7 +1,10 @@
+import Header from "../../components/header/header"
+
 export default function Sky() {
   return (
-    <div>
-      SKY 
-    </div>
+    <>
+      <Header />
+      <div>SKY</div>
+    </>
   );
 }
