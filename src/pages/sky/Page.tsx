@@ -4,7 +4,7 @@ export default function Sky() {
   return (
     <>
       <Header />
-      <div>SKY MAS</div>
+      <div>SKY MAS MAS</div>
     </>
   );
 }
