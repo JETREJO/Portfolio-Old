@@ -10,10 +10,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/JETREJO/" element={<Home />} />
-          <Route path="/JETREJO/sky" element={<Sky />} />
-          <Route path="/JETREJO/penteon" element={<Penteon />} />
-          <Route path="/JETREJO/liverpool" element={<Liverpool />} />
+          <Route path="/Portfolio-Old/" element={<Home />} />
+          <Route path="/Portfolio-Old/sky" element={<Sky />} />
+          <Route path="/Portfolio-Old/penteon" element={<Penteon />} />
+          <Route path="/Portfolio-Old/liverpool" element={<Liverpool />} />
         </Routes>
       </BrowserRouter>
     </>
